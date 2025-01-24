@@ -1,0 +1,21 @@
+# Ignorar todo por defecto
+*
+
+# Permitir archivos esenciales
+!pyproject.toml
+!poetry.lock
+!nautilus_trader/
+!nautilus_core/
+!scripts/
+!config/
+!data/
+
+# Excluir desarrollo
+.env
+**/*.pyc
+**/__pycache__
+**/.mypy_cache
+**/.pytest_cache
+**/.coverage
+**/.git
+**/*.log
